@@ -7,7 +7,7 @@ class registration_data(models.Model):
     password = models.CharField(max_length=100)
     email = models.CharField(max_length=100)
     phone = models.CharField(max_length=100)
-    pub_date = models.DateField(default=timezone.now())
+    entry_date = models.DateField(default=timezone.now())
 
 class medical_data(models.Model):
     L_CORE = models.IntegerField()
