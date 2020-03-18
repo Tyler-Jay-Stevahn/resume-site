@@ -25,7 +25,7 @@ SECRET_KEY = ')wk@n1(+_fo+f!szgm6f31l)tek&8r2+h%zl9dzv)&k9jyr2)4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://tylers-resume-app.herokuapp.com/']
 
 
 # Application definition
