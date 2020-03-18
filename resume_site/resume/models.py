@@ -9,13 +9,13 @@ class registration_data(models.Model):
     phone = models.CharField(max_length=100)
     pub_date = models.DateField(default=timezone.now())
 
-class medical_data(modesl.Model):
-    L_CORE = models.IntegerField(max_length=4)
-    L_SURF = models.IntegerField(max_length=4)
-    L_O2 = models.IntegerField(max_length=4)
-    L_BP = models.IntegerField(max_length=4)
-    SURF_STBL = models.IntegerField(max_length=4)
-    CORE_STBL = models.IntegerField(max_length=4)
-    BP_STBL = models.IntegerField(max_length=4)
-    COMFORT = models.IntegerField(max_length=4)
-    DESCISION = models.IntegerField(max_length=4)
+class medical_data(models.Model):
+    L_CORE = models.IntegerField()
+    L_SURF = models.IntegerField()
+    L_O2 = models.IntegerField()
+    L_BP = models.IntegerField()
+    SURF_STBL = models.IntegerField()
+    CORE_STBL = models.IntegerField()
+    BP_STBL = models.IntegerField()
+    COMFORT = models.IntegerField()
+    DESCISION = models.IntegerField()
